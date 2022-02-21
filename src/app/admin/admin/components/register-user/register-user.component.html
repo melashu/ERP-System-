@@ -1,0 +1,20 @@
+<form [formGroup]="userForm" novalidate (ngSubmit)="onSubmit()">
+    <p>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" formControlName="firstName">
+    </p>
+    <p>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" formControlName="lastName">
+    </p>
+    <p>
+        <label for="email">E-mail Address</label>
+        <input type="text" name="email" id="email" formControlName="email">
+    </p>
+    <p>
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" id="phone" formControlName="phone">
+    </p>
+
+    <button type="submit">Save</button>
+</form>

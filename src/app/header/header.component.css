@@ -1,0 +1,25 @@
+.nav ul {
+  background-color: rgb(24, 4, 4);
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-self: center;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border-right: 2px hsl(60, 100%, 50%) solid;
+  padding-right: 10px;
+}
+li a:hover {
+  padding: 22px;
+  background-color: white;
+  color: rgb(15, 12, 12);
+  border-right: 5px #e61c1c solid;
+}
